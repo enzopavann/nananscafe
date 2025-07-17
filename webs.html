@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <table cellpadding="10">
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <td ><a href="" width="100" ><p>Home</p></a></td>
+        <td><a href="" width="100"><p>Tabelas nutricional</p></a></td>
+        <td><a href="" width="100"><p>Localização</p></a></td>
+        <td><a href="" width="100"><p>Cadastre-se</p></a></td>
+        <td><a href="" width="100"><p>Fale conosco</p></a></td>
+    
+    </table>
+    <table>
+          <tr>
+            <td valign="middle">
+              <img src="imagens/logo.jpg" width="100">
+            </td>
+            <td valign="middle">
+              <h2><b>Cadastre-se no Café Starbuzz <sup>®</sup></b></h2>
+            </td>
+          </tr>
+    </table>
+        <br>
+        <form id='cadcli' action='teste.php' method="get">
+            <label for="fullname"> Nome Completo*:</label><br>
+            <input type="text" name="fullname"  size="40" placeholder="Digite o seu nome" >
+            <br><br>
+        </form>
+        <form>
+            <label for='Data'>Data de Aniversário*:</label> <br>
+            <input type="date" name="data" >
+            <br><br>                  
+        </form>
+            <form action="teste.php">
+            <label for="email"> Email*: </label><br>
+            <input type="email" name="email" placeholder="Digite o seu email">
+            <input type="submit" value="submit">
+            <br><br>
+        </form>
+            <form action="teste.php" method="get">
+                <label for='Data'> Data de aniversario:</label><br>
+                <input type="date" name="data" required="required"><br><br>
+        </form>
+            <form action="teste.php" method="get">
+                <fieldset>
+               <legend>Sexo*</legend>
+                <input type="radio" name="gener" value="radio"> Feminino
+                <input type="radio" name="gener" value="radio"> Masculino
+            </fieldset>
+                <br><br>
+        </form>
+        <form action="teste.php" method="get">
+                <label for="Cofe">Café preferido</label><br>
+                <select name="Cofe" >
+                        <option value="">Mistura da casa</option>
+                        <option value="">Café arabico</option>
+                        <option value="">Cappuccino</option>
+                        <option value="">Chá</option>
+                </select>
+        </form>
+            <br><br>
+        <form action="teste.php" method="get">
+                <label for="eat"> Você toma Café...</label><br>
+                <input type="checkbox" name="manhã" value="">Manhã
+                <input type="checkbox" name="tarde" value="">Tarde
+                <input type="checkbox" name="noite" value="">Noite
+        </form><br><br>
+        <form action="teste.php" method="post">
+                <p></p>
+                <textarea name="write" cols="30" rows="8" placeholder="Deixe seu comentário"></textarea>
+                </form>
+                <br>
+        <form action="teste.php">
+                Receber novidades por email <input type="checkbox" name="info" value="email">
+        </form><br>
+        <form action="teste.php" method="get">
+            <input type="reset" value="Limpar" >
+            <input type="submit" value="Enviar" >
+        </form>    
+        <br>
+        <a href="index.html">Voltar</a>    
+</body>
+</html>
